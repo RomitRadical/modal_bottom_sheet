@@ -482,10 +482,10 @@ PointerDeviceKind defaultPointerDeviceKind(BuildContext context) {
     case TargetPlatform.iOS:
     case TargetPlatform.android:
       return PointerDeviceKind.touch;
-    case TargetPlatform.linux:
-    case TargetPlatform.macOS:
-    case TargetPlatform.windows:
-      return PointerDeviceKind.mouse;
+//     case TargetPlatform.linux:
+//     case TargetPlatform.macOS:
+//     case TargetPlatform.windows:
+//       return PointerDeviceKind.mouse;
     case TargetPlatform.fuchsia:
       return PointerDeviceKind.unknown;
   }
